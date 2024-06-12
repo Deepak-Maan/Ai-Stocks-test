@@ -2,7 +2,7 @@ import React from 'react';
 import { StasticsData } from './common/helper';
 const Stactic = () => {
     return (
-        <div className='py-7 sm:pt-12 md:py-24 lg:py-[151px] bg-stastic bg-no-repeat bg-cover bg-left relative overflow-x-clip'>
+        <div className='py-7 sm:pt-12 md:py-24 lg:py-[151px] bg-no-repeat bg-cover bg-left relative overflow-x-clip'>
             <div className="sm:flex hidden h-[340px] w-[340px] bg-ellipseGradient blur-[150px] animate-pulse absolute bottom-0 left-[-20%] pointer-events-none"></div>
             <div className="sm:flex hidden h-[340px] w-[340px] bg-ellipseGradient blur-[150px] animate-pulse absolute top-[-15%] right-[-20%] pointer-events-none"></div>
             <div className='container max-w-[1164px] mx-auto px-3'>
