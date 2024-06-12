@@ -4,6 +4,7 @@ const Stactic = () => {
     return (
         <div className='py-7 sm:pt-12 md:py-24 lg:py-[151px] bg-stastic bg-no-repeat bg-cover bg-left relative overflow-x-clip'>
             <div className="sm:flex hidden h-[340px] w-[340px] bg-ellipseGradient blur-[150px] animate-pulse absolute bottom-0 left-[-20%] pointer-events-none"></div>
+            <div className="sm:flex hidden h-[340px] w-[340px] bg-ellipseGradient blur-[150px] animate-pulse absolute top-[-15%] right-[-20%] pointer-events-none"></div>
             <div className='container max-w-[1164px] mx-auto px-3'>
                 <h2 className='text-white font-bold text-3xl leading-7 lg:leading-12 lg:text-5xl text-center'><span className='text-gradient bg-gradient-to-b from-skyBlue to-lightBlue'>Stactic</span> For Today</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
