@@ -15,7 +15,7 @@ const Stactic = () => {
                                     <h4 className='text-white font-bold  leading-25 text-5xl lg:text-8xl text-center'>{item.number}</h4>
                                 </div>
                             </div>
-                            <p className={`pt-3 sm:pt-8 lg:pt-11 font-semibold text-2xl lg:text-4xl text-white text-center leading-7 lg:leading-10 ${index === 0 ? "max-w-[262px]" : index === 1 ? "max-w-[309px]" : index === 2 ? "max-w-[327px]" : ""}`}>{item.para}</p>
+                            <p className={`pt-3 sm:pt-8 lg:pt-11 font-semibold text-2xl md:text-4xl text-white text-center leading-7 lg:leading-10 ${index === 0 ? "max-w-[262px]" : index === 1 ? "max-w-[309px]" : index === 2 ? "max-w-[327px]" : ""}`}>{item.para}</p>
                         </div>
                     ))}
                 </div>
