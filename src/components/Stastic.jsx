@@ -12,7 +12,7 @@ const Stactic = () => {
                         <div key={index} className='flex  items-center flex-col pt-7 sm:pt-8 md:pt-14 lg:pt-24'>
                             <div className='flex justify-center items-center rounded-full p-2  bg-gradient-to-b from-skyBlue to-lightBlue max-w-[170px] min-h-[170px]  lg:max-w-[270px] lg:min-h-[270px] w-full '>
                                 <div className='bg-black rounded-full h-full w-full flex items-center justify-center'>
-                                    <h4 className='text-white font-bold  leading-25 text-5xl lg:text-8xl text-center'>{item.number}</h4>
+                                    <p className='text-white font-bold  leading-25 text-5xl lg:text-8xl text-center'>{item.number}</p>
                                 </div>
                             </div>
                             <p className={`pt-3 sm:pt-8 lg:pt-11 font-semibold text-2xl md:text-4xl text-white text-center leading-7 lg:leading-10 ${index === 0 ? "max-w-[262px]" : index === 1 ? "max-w-[309px]" : index === 2 ? "max-w-[327px]" : ""}`}>{item.para}</p>
