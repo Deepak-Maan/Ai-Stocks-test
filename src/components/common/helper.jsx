@@ -1,7 +1,7 @@
-import investMan from "../../assets/images/investedMan.png"
-import investWoman from "../../assets/images/investedWoman.png"
-import nonLeverageGraph from "../../assets/images/nonLeverageGraph.png"
-import leverageGraph from "../../assets/images/leverageGraph.png"
+import investMan from "../../assets/images/investedMan.webp"
+import investWoman from "../../assets/images/investedWoman.webp"
+import nonLeverageGraph from "../../assets/images/nonLeverageGraph.webp"
+import leverageGraph from "../../assets/images/leverageGraph.webp"
 export const StasticsData = [
     {
         number: "01",
